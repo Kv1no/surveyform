@@ -1,0 +1,67 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+<script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+  <body>
+    <h1 id="title">Elon Musk Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+    <div id="body">
+    <form id="survey-form">
+      <label id="name-label" for="name">
+      <p>Name:</p>
+        </label>
+      <input id="name" type="text" name="name" placeholder="Enter your name" required>
+      
+      <label id="email-label" for="email">
+      <p>Email:</p>
+        </label>
+      <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+      
+      <label id="number-label" for="number">
+      <p>Age:</p>
+        </label>
+      <input id="number" type="number" name="number" placeholder="Age" min="10" max="60" required>
+      
+      <p>Which Innovations Of Musk Do You Like:</p>
+      <select id="dropdown">
+        <option value="default">Nothing</option>
+        <option value="SpaceX">SpaceX</option>
+        <option value="Tesla Motors">Tesla Motors</option>
+        <option value="PayPal">PayPal</option>
+        
+        
+        
+        
+      </select>
+      
+      <p>Do You Like Inovations Of Musk</p>
+        <input id="definitely" type="radio" name="levels" value="definitely">
+        <label for="definitely">Definitely</label><br>
+        <input id="maybe" type="radio" name="levels" value="maybe">
+        <label for="maybe">Maybe</label><br>
+        <input id="not sure" type="radio" name="levels" value="not sure">
+        <label for="not sure">Not sure</label>
+        <br>
+      
+        <p>Which Of The Other American Inventor Do You Like?</p>
+      <input type="checkbox" id="inventor1" name="inventor1" value="inv1">
+      <label for="inventor1">Bill Gates</label><br>
+      <input type="checkbox" id="inventor2" name="inventor2" value="inv2">
+      <label for="inventor2">Nikola Tesla</label><br>
+      <input type="checkbox" id="inventor3" name="inventor3" value="inv3">
+      <label for="inventor">Steve Wozniak</label><br>
+      
+      <textarea id="comment" rows="4" cols="40">Enter Your Comment Here</textarea>
+      <br>
+      <input id="submit" type="submit" value="Submit">
+      
+      
+      
+    </form>
+      </div>
+    
+    </body>
+  </html>
+
